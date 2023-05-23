@@ -4,12 +4,16 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Chat from './components/Chat.vue'
+import Nav from './components/Nav.vue'
+import Message from './components/Message.vue'
+import SendIcon from './components/SendIcon.vue'
+import Avatar from './components/Avatar.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Chat, Nav, Message, SendIcon, Avatar
   }
 }
 </script>
